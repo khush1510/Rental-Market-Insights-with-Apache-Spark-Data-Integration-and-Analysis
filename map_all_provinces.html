@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_d82d549a8065c9046ac04bc4029350f8 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_d82d549a8065c9046ac04bc4029350f8" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_d82d549a8065c9046ac04bc4029350f8 = L.map(
+                "map_d82d549a8065c9046ac04bc4029350f8",
+                {
+                    center: [43.653963, -79.387207],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 4,
+                    zoomControl: true,
+                    preferCanvas: false,
+                    detectRetina: true,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_88128827caf20295760d6f9633316d14 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_d82d549a8065c9046ac04bc4029350f8);
+        
+    
+            var marker_f5cc0f2e122c34601b08559669cd723a = L.marker(
+                [53.54624, -113.49038],
+                {}
+            ).addTo(map_d82d549a8065c9046ac04bc4029350f8);
+        
+    
+        var popup_b520882e198788fb8f252564a08bc922 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7af0981fff6fc8339aab71dbf27701e6 = $(`<div id="html_7af0981fff6fc8339aab71dbf27701e6" style="width: 100.0%; height: 100.0%;">AB<br>Total - gender: 4695290<br>Men+: 2363694<br>Women+: 2331596</div>`)[0];
+                popup_b520882e198788fb8f252564a08bc922.setContent(html_7af0981fff6fc8339aab71dbf27701e6);
+            
+        
+
+        marker_f5cc0f2e122c34601b08559669cd723a.bindPopup(popup_b520882e198788fb8f252564a08bc922)
+        ;
+
+        
+    
+    
+            marker_f5cc0f2e122c34601b08559669cd723a.bindTooltip(
+                `<div>
+                     Max Total People by Province
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3799801c55367890a68e35aeb4fc3980 = L.marker(
+                [48.42855, -123.36446],
+                {}
+            ).addTo(map_d82d549a8065c9046ac04bc4029350f8);
+        
+    
+        var popup_838de5d7de7733b5e42ba92cbd9e94cf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_664cbcf80c88ad31632e66e1e3c8b2c5 = $(`<div id="html_664cbcf80c88ad31632e66e1e3c8b2c5" style="width: 100.0%; height: 100.0%;">BC<br>Total - gender: 5519013<br>Women+: 2782295<br>Men+: 2736718</div>`)[0];
+                popup_838de5d7de7733b5e42ba92cbd9e94cf.setContent(html_664cbcf80c88ad31632e66e1e3c8b2c5);
+            
+        
+
+        marker_3799801c55367890a68e35aeb4fc3980.bindPopup(popup_838de5d7de7733b5e42ba92cbd9e94cf)
+        ;
+
+        
+    
+    
+            marker_3799801c55367890a68e35aeb4fc3980.bindTooltip(
+                `<div>
+                     Max Total People by Province
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c98b7f8f0c790c9270c71acd12cd3a22 = L.marker(
+                [49.89953, -97.14113],
+                {}
+            ).addTo(map_d82d549a8065c9046ac04bc4029350f8);
+        
+    
+        var popup_da2a068232b5bf5dac4bf573874b7d8f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ab7fef82f2772259b603b1db081bdf19 = $(`<div id="html_ab7fef82f2772259b603b1db081bdf19" style="width: 100.0%; height: 100.0%;">MB<br>Total - gender: 1454902<br>Men+: 735105<br>Women+: 719797</div>`)[0];
+                popup_da2a068232b5bf5dac4bf573874b7d8f.setContent(html_ab7fef82f2772259b603b1db081bdf19);
+            
+        
+
+        marker_c98b7f8f0c790c9270c71acd12cd3a22.bindPopup(popup_da2a068232b5bf5dac4bf573874b7d8f)
+        ;
+
+        
+    
+    
+            marker_c98b7f8f0c790c9270c71acd12cd3a22.bindTooltip(
+                `<div>
+                     Max Total People by Province
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a90b168e3a1a979efdf1ca012360e59a = L.marker(
+                [45.96062, -66.63912],
+                {}
+            ).addTo(map_d82d549a8065c9046ac04bc4029350f8);
+        
+    
+        var popup_e8c11a52b8e79abe32d179c7f42ce610 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fcb0a1bcb8dc3108e08939b9d6b0954a = $(`<div id="html_fcb0a1bcb8dc3108e08939b9d6b0954a" style="width: 100.0%; height: 100.0%;">NB<br>Total - gender: 834691<br>Women+: 421855<br>Men+: 412836</div>`)[0];
+                popup_e8c11a52b8e79abe32d179c7f42ce610.setContent(html_fcb0a1bcb8dc3108e08939b9d6b0954a);
+            
+        
+
+        marker_a90b168e3a1a979efdf1ca012360e59a.bindPopup(popup_e8c11a52b8e79abe32d179c7f42ce610)
+        ;
+
+        
+    
+    
+            marker_a90b168e3a1a979efdf1ca012360e59a.bindTooltip(
+                `<div>
+                     Max Total People by Province
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f6c6914253d95fe9f210db0bb08dbae1 = L.marker(
+                [47.56083, -52.7122],
+                {}
+            ).addTo(map_d82d549a8065c9046ac04bc4029350f8);
+        
+    
+        var popup_1e96befc7a39a84cc378847d31b70b51 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_43a5348428ff2dd6bf9dde0249615870 = $(`<div id="html_43a5348428ff2dd6bf9dde0249615870" style="width: 100.0%; height: 100.0%;">NL<br>Total - gender: 538605<br>Women+: 272158<br>Men+: 266447</div>`)[0];
+                popup_1e96befc7a39a84cc378847d31b70b51.setContent(html_43a5348428ff2dd6bf9dde0249615870);
+            
+        
+
+        marker_f6c6914253d95fe9f210db0bb08dbae1.bindPopup(popup_1e96befc7a39a84cc378847d31b70b51)
+        ;
+
+        
+    
+    
+            marker_f6c6914253d95fe9f210db0bb08dbae1.bindTooltip(
+                `<div>
+                     Max Total People by Province
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f6dfbc90cff66d0c747f2c23659102b4 = L.marker(
+                [62.45446, -114.37095],
+                {}
+            ).addTo(map_d82d549a8065c9046ac04bc4029350f8);
+        
+    
+        var popup_c9c166c9d93245c6b13a7af19707fca9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_faaf771076a0cf87a2f2980564845309 = $(`<div id="html_faaf771076a0cf87a2f2980564845309" style="width: 100.0%; height: 100.0%;">NT<br>Total - gender: 44972<br>Men+: 23032<br>Women+: 21940</div>`)[0];
+                popup_c9c166c9d93245c6b13a7af19707fca9.setContent(html_faaf771076a0cf87a2f2980564845309);
+            
+        
+
+        marker_f6dfbc90cff66d0c747f2c23659102b4.bindPopup(popup_c9c166c9d93245c6b13a7af19707fca9)
+        ;
+
+        
+    
+    
+            marker_f6dfbc90cff66d0c747f2c23659102b4.bindTooltip(
+                `<div>
+                     Max Total People by Province
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b99c2448a839eb5bbbf0a9ab7cedfc6f = L.marker(
+                [44.64548, -63.57656],
+                {}
+            ).addTo(map_d82d549a8065c9046ac04bc4029350f8);
+        
+    
+        var popup_176b0a45f5f7bb8aa11e6c527da16f4c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b6faf842a5634c614e1bf33e2329b2dc = $(`<div id="html_b6faf842a5634c614e1bf33e2329b2dc" style="width: 100.0%; height: 100.0%;">NS<br>Total - gender: 1058694<br>Women+: 535068<br>Men+: 523626</div>`)[0];
+                popup_176b0a45f5f7bb8aa11e6c527da16f4c.setContent(html_b6faf842a5634c614e1bf33e2329b2dc);
+            
+        
+
+        marker_b99c2448a839eb5bbbf0a9ab7cedfc6f.bindPopup(popup_176b0a45f5f7bb8aa11e6c527da16f4c)
+        ;
+
+        
+    
+    
+            marker_b99c2448a839eb5bbbf0a9ab7cedfc6f.bindTooltip(
+                `<div>
+                     Max Total People by Province
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e69128b9276146908e02d682f28ec2ad = L.marker(
+                [63.75133, -68.52043],
+                {}
+            ).addTo(map_d82d549a8065c9046ac04bc4029350f8);
+        
+    
+        var popup_8e3d0cf4eefcef9119be53f84ead4f9a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9d2c31d234e1a197a79fca00ac0fa675 = $(`<div id="html_9d2c31d234e1a197a79fca00ac0fa675" style="width: 100.0%; height: 100.0%;">NU<br>Total - gender: 40673<br>Men+: 20576<br>Women+: 20097</div>`)[0];
+                popup_8e3d0cf4eefcef9119be53f84ead4f9a.setContent(html_9d2c31d234e1a197a79fca00ac0fa675);
+            
+        
+
+        marker_e69128b9276146908e02d682f28ec2ad.bindPopup(popup_8e3d0cf4eefcef9119be53f84ead4f9a)
+        ;
+
+        
+    
+    
+            marker_e69128b9276146908e02d682f28ec2ad.bindTooltip(
+                `<div>
+                     Max Total People by Province
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2a05149b315a1e4ab01fe929b69697fe = L.marker(
+                [43.64869, -79.38545],
+                {}
+            ).addTo(map_d82d549a8065c9046ac04bc4029350f8);
+        
+    
+        var popup_e35f68d4b0870d7228794a802c9703d8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6f5e5d8feab8e4e05a68ca08525df084 = $(`<div id="html_6f5e5d8feab8e4e05a68ca08525df084" style="width: 100.0%; height: 100.0%;">ON<br>Total - gender: 15608369<br>Women+: 7846853<br>Men+: 7761516</div>`)[0];
+                popup_e35f68d4b0870d7228794a802c9703d8.setContent(html_6f5e5d8feab8e4e05a68ca08525df084);
+            
+        
+
+        marker_2a05149b315a1e4ab01fe929b69697fe.bindPopup(popup_e35f68d4b0870d7228794a802c9703d8)
+        ;
+
+        
+    
+    
+            marker_2a05149b315a1e4ab01fe929b69697fe.bindTooltip(
+                `<div>
+                     Max Total People by Province
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_265a0d7feaecfb92fc8de2ec33df6557 = L.marker(
+                [46.2366, -63.12816],
+                {}
+            ).addTo(map_d82d549a8065c9046ac04bc4029350f8);
+        
+    
+        var popup_92ab29a8fbacf8cd89bcc975887f4efd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0d87643f70dad164222c78c38676e8a5 = $(`<div id="html_0d87643f70dad164222c78c38676e8a5" style="width: 100.0%; height: 100.0%;">PE<br>Total - gender: 173787<br>Women+: 88564<br>Men+: 85223</div>`)[0];
+                popup_92ab29a8fbacf8cd89bcc975887f4efd.setContent(html_0d87643f70dad164222c78c38676e8a5);
+            
+        
+
+        marker_265a0d7feaecfb92fc8de2ec33df6557.bindPopup(popup_92ab29a8fbacf8cd89bcc975887f4efd)
+        ;
+
+        
+    
+    
+            marker_265a0d7feaecfb92fc8de2ec33df6557.bindTooltip(
+                `<div>
+                     Max Total People by Province
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_247a5368c0676e4aa9922d9debf9b966 = L.marker(
+                [46.81273, -71.21931],
+                {}
+            ).addTo(map_d82d549a8065c9046ac04bc4029350f8);
+        
+    
+        var popup_3e7233a62647c8331dc9487e5b45eb14 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b422e2ca47d131e5d259ae993da07a1c = $(`<div id="html_b422e2ca47d131e5d259ae993da07a1c" style="width: 100.0%; height: 100.0%;">QC<br>Total - gender: 8874683<br>Men+: 4453304<br>Women+: 4421379</div>`)[0];
+                popup_3e7233a62647c8331dc9487e5b45eb14.setContent(html_b422e2ca47d131e5d259ae993da07a1c);
+            
+        
+
+        marker_247a5368c0676e4aa9922d9debf9b966.bindPopup(popup_3e7233a62647c8331dc9487e5b45eb14)
+        ;
+
+        
+    
+    
+            marker_247a5368c0676e4aa9922d9debf9b966.bindTooltip(
+                `<div>
+                     Max Total People by Province
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_250d9b175cbef06c12907c0eda46509b = L.marker(
+                [50.44825, -104.59518],
+                {}
+            ).addTo(map_d82d549a8065c9046ac04bc4029350f8);
+        
+    
+        var popup_23a94fd5fabaafb319d1a771d99e69d4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d50b8a5a996c718ddfe24131d1bf40b1 = $(`<div id="html_d50b8a5a996c718ddfe24131d1bf40b1" style="width: 100.0%; height: 100.0%;">SK<br>Total - gender: 1209107<br>Men+: 609018<br>Women+: 600089</div>`)[0];
+                popup_23a94fd5fabaafb319d1a771d99e69d4.setContent(html_d50b8a5a996c718ddfe24131d1bf40b1);
+            
+        
+
+        marker_250d9b175cbef06c12907c0eda46509b.bindPopup(popup_23a94fd5fabaafb319d1a771d99e69d4)
+        ;
+
+        
+    
+    
+            marker_250d9b175cbef06c12907c0eda46509b.bindTooltip(
+                `<div>
+                     Max Total People by Province
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7ce2b34cb7c0caed722277652b19a19d = L.marker(
+                [60.72085, -135.05326],
+                {}
+            ).addTo(map_d82d549a8065c9046ac04bc4029350f8);
+        
+    
+        var popup_4083210e4bb8e4a30b5c31f65655a8cc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a8a597d7b711b379242f462c7c197667 = $(`<div id="html_a8a597d7b711b379242f462c7c197667" style="width: 100.0%; height: 100.0%;">YT<br>Total - gender: 44975<br>Men+: 22612<br>Women+: 22363</div>`)[0];
+                popup_4083210e4bb8e4a30b5c31f65655a8cc.setContent(html_a8a597d7b711b379242f462c7c197667);
+            
+        
+
+        marker_7ce2b34cb7c0caed722277652b19a19d.bindPopup(popup_4083210e4bb8e4a30b5c31f65655a8cc)
+        ;
+
+        
+    
+    
+            marker_7ce2b34cb7c0caed722277652b19a19d.bindTooltip(
+                `<div>
+                     Max Total People by Province
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>
